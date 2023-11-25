@@ -1,0 +1,14 @@
+.first{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+}
+@media (max-width: 500px) {
+    .first{
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+}
